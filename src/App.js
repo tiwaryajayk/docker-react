@@ -12,7 +12,7 @@ function App() {
         </p>
         <p>Mr. bean...you are a great buddy!!!</p>
         <p>Welcome to react application....!!!</p>
-        <p>Mr. bean...you are a great buddy!!!changed to feature branch</p>
+        <p>Mr. bean...you are a great buddy!!!changed to premaster branch</p>
         <a
           className="App-link"
           href="https://reactjs.org"
