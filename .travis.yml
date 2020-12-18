@@ -2,7 +2,7 @@ sudo: required
 services:
   - docker
 before_install:
-  - docker build -t tiwaryajayk/docker-react -f Dockerfile.dev .
+  - docker build -t tiwaryajayk/docker-react -f Dockerfile .
 
 script:
   - docker run -e CI=True tiwaryajayk/docker-react npm run test -- --coverage
@@ -17,4 +17,4 @@ deploy:
   on:
     branch: master
   access_key_id: "$AWS_ACCESS_KEY"
-  secret_access_key: "$AWS_SECRET_KEY" 
+  secret_access_key: "$AWS_SECRET_KEY"
