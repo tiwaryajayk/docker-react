@@ -10,12 +10,9 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
           
         </p>
-<<<<<<< HEAD
         <p>Mr. bean...you are a great buddy!!!</p>
         <p>Welcome to react application....!!!</p>
-=======
         <p>Mr. bean...you are a great buddy!!!changed to feature branch</p>
->>>>>>> f0b00de1306c62c989a3c4e142793657a098cfba
         <a
           className="App-link"
           href="https://reactjs.org"
