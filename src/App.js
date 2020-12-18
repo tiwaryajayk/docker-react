@@ -11,6 +11,7 @@ function App() {
           
         </p>
         <p>Mr. bean...you are a great buddy!!!</p>
+        <p>Welcome to react application!!!</p>
         <a
           className="App-link"
           href="https://reactjs.org"
